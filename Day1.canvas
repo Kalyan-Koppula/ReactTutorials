@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"7d0165cd03898897","x":-660,"y":-300,"width":535,"height":300,"type":"group","label":"Old html first "},
+		{"id":"42d3eeb366c9d168","x":-640,"y":-280,"width":165,"height":105,"type":"text","text":"HTML\nelemsre \nmiminum js "},
+		{"id":"3dcdc45df8c84380","x":-520,"y":-140,"width":250,"height":60,"type":"text","text":"More HTML and sprinke of js "},
+		{"id":"df105c8129d95f03","x":-420,"y":-258,"width":250,"height":60,"type":"text","text":"some.js"},
+		{"id":"92be282518e1446a","x":42,"y":-309,"width":200,"height":147,"type":"text","text":"React \nfront end lib\njs first \njs sprinkle of html"},
+		{"id":"ecdd23ca4e553e57","x":302,"y":-280,"width":265,"height":90,"type":"text","text":"brak into components\nreuse them any no of times\n"},
+		{"id":"0745fca024679aa5","x":0,"y":-112,"width":285,"height":120,"type":"text","text":"nice API , thant u can use to control each componet.\nas in useState, useEffect\n"}
+	],
+	"edges":[
+		{"id":"8494e93efaacacef","fromNode":"df105c8129d95f03","fromSide":"left","toNode":"42d3eeb366c9d168","toSide":"right"},
+		{"id":"28ccb5b54caf19ba","fromNode":"92be282518e1446a","fromSide":"bottom","toNode":"0745fca024679aa5","toSide":"top"},
+		{"id":"af9d925e1a6bb091","fromNode":"92be282518e1446a","fromSide":"right","toNode":"ecdd23ca4e553e57","toSide":"left"}
+	]
+}

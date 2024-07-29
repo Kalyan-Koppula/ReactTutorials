@@ -2,6 +2,7 @@
 	"nodes":[
 		{"id":"20e79fce0ce73dd0","x":-621,"y":1120,"width":1440,"height":400,"color":"2","type":"group","label":"Basics JS"},
 		{"id":"5450a6c419cacb45","type":"group","x":46,"y":320,"width":773,"height":143,"color":"5","label":"Learn later"},
+		{"id":"432db178e55dafde","x":-667,"y":60,"width":647,"height":140,"color":"1","type":"group","label":"Day1"},
 		{"id":"74a288dfec5b7c10","type":"text","text":"HTML","x":-647,"y":-293,"width":250,"height":60},
 		{"id":"07f6cc82993be307","type":"text","text":"CSS","x":-647,"y":-200,"width":250,"height":60},
 		{"id":"7ac8047a01353bb7","type":"text","text":"JS","x":-647,"y":-120,"width":250,"height":60},
