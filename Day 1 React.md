@@ -180,3 +180,5 @@ const Comp = ({value, ...otherprops}) => {
 }
 
 ```
+
+[[Day1.canvas|Day1]]

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"2e27951153605d83","x":-125,"y":-30,"width":125,"height":50,"color":"1","type":"text","text":"Parent"},
+		{"id":"e13208d8115a3b74","x":-280,"y":100,"width":250,"height":60,"color":"1","type":"text","text":"Child1"},
+		{"id":"02ce2d29de23ba83","type":"text","text":"Child2","x":160,"y":100,"width":250,"height":60},
+		{"id":"a6c78243ca853b66","type":"text","text":"3","x":-530,"y":280,"width":250,"height":60},
+		{"id":"87a2c0616a7f0c37","type":"text","text":"4Child","x":-125,"y":280,"width":250,"height":60,"color":"1"},
+		{"id":"f65f044a48be8461","type":"text","text":"5Child","x":400,"y":280,"width":250,"height":60},
+		{"id":"c560d87e265e7f71","type":"text","text":"6Child","x":-30,"y":440,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"0baf2370f218a8a1","fromNode":"2e27951153605d83","fromSide":"bottom","toNode":"e13208d8115a3b74","toSide":"top"},
+		{"id":"d8185fce5d40f1fa","fromNode":"e13208d8115a3b74","fromSide":"bottom","toNode":"a6c78243ca853b66","toSide":"top"},
+		{"id":"436345d795fbb9cd","fromNode":"e13208d8115a3b74","fromSide":"bottom","toNode":"87a2c0616a7f0c37","toSide":"top"},
+		{"id":"6ce0f1a00f10ae56","fromNode":"2e27951153605d83","fromSide":"bottom","toNode":"02ce2d29de23ba83","toSide":"top"},
+		{"id":"3ce940f8e8a5d9b8","fromNode":"02ce2d29de23ba83","fromSide":"bottom","toNode":"f65f044a48be8461","toSide":"top"},
+		{"id":"8f8fdd10cc3b0d6c","fromNode":"87a2c0616a7f0c37","fromSide":"bottom","toNode":"c560d87e265e7f71","toSide":"top"}
+	]
+}
