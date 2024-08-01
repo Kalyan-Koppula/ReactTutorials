@@ -210,3 +210,5 @@ iinpu out
 const image = chapgpt('generate prathis image')
 
 
+
+

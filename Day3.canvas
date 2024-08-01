@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"0f9a47e40bf5e231","type":"group","x":-620,"y":-160,"width":965,"height":370,"label":"Render satge"},
+		{"id":"1ce2c8d0efc1d396","type":"group","x":-500,"y":-120,"width":290,"height":310,"label":"Component"},
+		{"id":"f5c9eaeeefda2a61","type":"text","text":"VDOM\nhi kalyan\nHeloo kalyan\n...... kalyan ","x":0,"y":-50,"width":325,"height":203},
+		{"id":"367aa465f9b563f2","type":"text","text":"hi {name}","x":-468,"y":-100,"width":225,"height":50},
+		{"id":"52f9a4b90328749e","type":"text","text":"Hello {name}","x":-480,"y":10,"width":250,"height":60},
+		{"id":"b63f5ef43d0a36c8","type":"text","text":"Your name in kanada is {name.toLocale()}","x":-480,"y":110,"width":250,"height":60},
+		{"id":"2143c7b55e7b41db","type":"text","text":"Manger","x":-400,"y":-300,"width":250,"height":60},
+		{"id":"96e0c4d030e23e70","type":"text","text":"name is my state ,\nwhenver it change \nchange it in all the places inside that componetn \nand commit to the dom , ","x":40,"y":-355,"width":285,"height":170},
+		{"id":"5d82e54a826e9a25","type":"text","text":"browser got the update div with hi kalyan ......\n","x":520,"y":40,"width":260,"height":90},
+		{"id":"c73e15ac5a6e65a2","type":"text","text":"Previos dom \nmaybe it had name test\n`<div>hi test</div>`","x":520,"y":-270,"width":250,"height":120},
+		{"id":"77ad4a703732ca1f","x":180,"y":590,"width":280,"height":90,"type":"text","text":"loc 100\na =pointer to location 200 "},
+		{"id":"725cab544d4cdd01","x":560,"y":605,"width":250,"height":60,"type":"text","text":"loc 200 \nvale 1"},
+		{"id":"9e05569e173b240c","x":-140,"y":605,"width":85,"height":60,"type":"text","text":"ob"}
+	],
+	"edges":[
+		{"id":"cda77bb52a9f229b","fromNode":"96e0c4d030e23e70","fromSide":"left","toNode":"2143c7b55e7b41db","toSide":"right","label":"name=kalyan"},
+		{"id":"d6159477ea13687f","fromNode":"2143c7b55e7b41db","fromSide":"bottom","toNode":"1ce2c8d0efc1d396","toSide":"top","label":"nmae= kalyan"},
+		{"id":"fc8cb1bed2e1b7c6","fromNode":"1ce2c8d0efc1d396","fromSide":"right","toNode":"f5c9eaeeefda2a61","toSide":"left","label":"genrate\n\n"},
+		{"id":"fde2ff56d913695f","fromNode":"f5c9eaeeefda2a61","fromSide":"right","toNode":"5d82e54a826e9a25","toSide":"left","label":"commit"},
+		{"id":"5149d64f73600de9","fromNode":"f5c9eaeeefda2a61","fromSide":"right","toNode":"c73e15ac5a6e65a2","toSide":"left","label":"compare vdom vs previous dom,\nidentify minimal changes \nand perform necessary action \nlike el.innerhtml"},
+		{"id":"ec986c28a514263b","fromNode":"c73e15ac5a6e65a2","fromSide":"bottom","toNode":"5d82e54a826e9a25","toSide":"top"},
+		{"id":"64fdae639874b21e","fromNode":"9e05569e173b240c","fromSide":"right","toNode":"77ad4a703732ca1f","toSide":"left","label":"const"},
+		{"id":"637bae2dbbc39b52","fromNode":"77ad4a703732ca1f","fromSide":"right","toNode":"725cab544d4cdd01","toSide":"left"}
+	]
+}
