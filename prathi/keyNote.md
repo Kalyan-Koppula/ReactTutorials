@@ -133,6 +133,11 @@ const fx() - it will brrak
 usememo will give u actual returned value
 callback jjust refernec
 
+error boundary, fallback
+
+> useref >> useEffect >> usereducer(replacement for state management problems) >> useContext >> reducer&contexxt >> useCallback , memo and useMemo
+
+
 
 
 
