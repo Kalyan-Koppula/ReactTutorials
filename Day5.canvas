@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"4515386351ae8f29","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":""},
+		{"id":"4ea29b1f3ebc328a","x":-200,"y":-1460,"width":100,"height":60,"type":"text","text":"state"},
+		{"id":"27f5ebde28f2d5e9","x":92,"y":-1301,"width":250,"height":60,"type":"text","text":""},
+		{"id":"4ea409cf6657ea6c","x":-275,"y":-1120,"width":250,"height":60,"type":"text","text":"Reducer"},
+		{"id":"df6dcfb4360219ed","x":-680,"y":-1301,"width":250,"height":60,"type":"text","text":"Request"}
+	],
+	"edges":[
+		{"id":"7cdebcee28f37460","fromNode":"4ea409cf6657ea6c","fromSide":"top","toNode":"4ea29b1f3ebc328a","toSide":"bottom","label":"update without mutation"},
+		{"id":"0aa496f51a7494bf","fromNode":"4ea409cf6657ea6c","fromSide":"right","toNode":"27f5ebde28f2d5e9","toSide":"left","label":"newState"},
+		{"id":"3138e48405f7713d","fromNode":"df6dcfb4360219ed","fromSide":"right","toNode":"4ea409cf6657ea6c","toSide":"left","label":"action, payload"},
+		{"id":"54370cca9c70c3a2","fromNode":"4ea29b1f3ebc328a","fromSide":"left","toNode":"4ea409cf6657ea6c","toSide":"bottom","label":"read"},
+		{"id":"3a3503bdb8277fb4","fromNode":"df6dcfb4360219ed","fromSide":"top","toNode":"4ea29b1f3ebc328a","toSide":"left","color":"1","label":"no interaction"}
+	]
+}
